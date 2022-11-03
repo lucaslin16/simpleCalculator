@@ -57,7 +57,7 @@ class Calculator{
         this.operation = undefined
         this.previousOperand = ''
     }
-//test upload to git
+
     getDisplayNumber(number){
         const stringNumber = number.toString()
         const integerDigits = parseFloat(stringNumber.split('.')[0])
